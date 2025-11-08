@@ -121,7 +121,7 @@ st.markdown("""
 # ---------- Header ----------
 st.markdown("""
 <h1>🤖 AI Resume Analyzer</h1>
-<p style='text-align:center; font-size:18px;'>Upload your resume and get your ATS score with a detailed neon-green breakdown.</p>
+<p style='text-align:center; font-size:18px;'>Upload your resume and get your ATS score with a detailed Resume Analysis breakdown.</p>
 <hr>
 """, unsafe_allow_html=True)
 
