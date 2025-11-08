@@ -1,0 +1,77 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+build/
+develop-eggs/
+dist/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.manifest
+*.spec
+
+# --- Environment / Secrets ---
+.env
+*.env
+.env.local
+.secret
+apikeys.json
+config.json
+
+# --- Virtual Environments ---
+venv/
+env/
+.venv/
+ENV/
+env.bak/
+python_env/
+.Python
+
+# --- Streamlit Cache ---
+.streamlit/
+logs/
+.cache/
+*/__pycache__/
+*/.ipynb_checkpoints/
+
+# --- System / IDE ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- Jupyter / Notebooks ---
+.ipynb_checkpoints
+*.ipynb_checkpoints
+*.nbconvert.ipynb
+
+# --- OS Generated Files ---
+ehthumbs.db
+Icon?
+Desktop.ini
+
+# --- Testing / Coverage ---
+.tox/
+.nox/
+.coverage
+coverage.xml
+*.cover
+*.py,cover
+nosetests.xml
+test-results.xml
+
+# --- Others ---
+*.log
+*.tmp
+*.bak
+*.old
