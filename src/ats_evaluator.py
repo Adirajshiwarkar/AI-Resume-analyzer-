@@ -7,7 +7,7 @@ load_dotenv()
 genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 
 def analyze_resume_with_ai(resume_text, job_role):
-    model = genai.GenerativeModel("gemini-2.5-pro")
+    model = genai.GenerativeModel("gemini-3.6-flash")
 
     prompt = f"""
     You are an ATS (Applicant Tracking System) evaluation expert.
